@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background: #f9f9f9;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+header nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+nav a.active {
+    font-weight: bold;
+    color: #f00;
+}
+main {
+    margin-top: 20px;
+}
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+}
+@media (max-width: 600px) {
+    header nav ul {
+        flex-direction: column;
+    }
+}
